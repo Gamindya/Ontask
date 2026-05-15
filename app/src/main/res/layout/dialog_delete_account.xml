@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_dialog"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warning"
+        android:textColor="#FF3333"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtWarningMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginTop="20dp"
+        android:text="Are you sure you want to delete your account? This action cannot be undone."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConfirmDelete"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtWarningMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_rounded_button"
+        android:backgroundTint="#FF3333"
+        android:text="Delete"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtCancelDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConfirmDelete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Cancel"
+        android:textColor="#999999"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

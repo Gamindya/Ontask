@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_dialog"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Task"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_rounded_input"
+        android:hint="What do you need to do?"
+        android:textColorHint="#999999"
+        android:textColor="@color/white"
+        android:paddingStart="20dp" />
+
+    <LinearLayout
+        android:id="@+id/dateTimeRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTaskName"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTaskDate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_rounded_input"
+            android:hint="Date"
+            android:textColorHint="#999999"
+            android:textColor="@color/white"
+            android:paddingStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:focusable="false"
+            android:clickable="true"/>
+
+        <EditText
+            android:id="@+id/editTaskTime"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_rounded_input"
+            android:hint="Time"
+            android:textColorHint="#999999"
+            android:textColor="@color/white"
+            android:paddingStart="20dp"
+            android:focusable="false"
+            android:clickable="true"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSaveTask"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/dateTimeRow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_rounded_button"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSaveTask"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Cancel"
+        android:textColor="#999999"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

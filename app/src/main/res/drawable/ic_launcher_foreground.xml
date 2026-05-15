@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Circle -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M54,24c16.5,0 30,13.5 30,30s-13.5,30 -30,30s-30,-13.5 -30,-30S37.5,24 54,24 M54,18C34.1,18 18,34.1 18,54s16.1,36 36,36s36,-16.1 36,-36S73.9,18 54,18L54,18z"/>
+
+    <!-- Checkmark -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M48,64L38,54l2,-2l8,8l20,-20l2,2L48,64z"/>
+
+</vector>

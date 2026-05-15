@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "939990551491",
+    "project_id": "ontask-app-123",
+    "storage_bucket": "ontask-app-123.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939990551491:android:65b20a9411a3aa79114b76",
+        "android_client_info": {
+          "package_name": "com.example.ontask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF-TBEgZxvmrhs37x8lOLznvj_DxvmOQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

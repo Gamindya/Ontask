@@ -1,0 +1,22 @@
+# Android Studio / IntelliJ
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Firebase / Sensitive (Optional, but recommended if you want to use your own)
+# google-services.json
+
+# Local Configuration
+local.properties
+
+# Log files
+*.log
+
+# Project specific
+/app/build
